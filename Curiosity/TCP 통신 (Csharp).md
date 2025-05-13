@@ -15,7 +15,19 @@ NetworkStream 객체를 반환하며 이를 통해 데이터를 Read(), Write() 
 스트림을 통해 서버와 클라간의 통신이 이루어진다.
 
 ---
-# Stream.Read()
+# NetworkStream.Read()
+바이트 배열을 직접 채워서 데이터를 읽을 수 있는 방법
+```csharp
+TcpClient client = new TcpClient("127.0.0.1", 8080);
+NetworkStream stream = client.GetStream();
+
+byte[] buffer = new byte[256];  // 읽을 데이터 버퍼 생성
+int bytesRead = stream.Read(buffer, 0, buffer.Length); // 스트림에서 데이터 읽기
+
+string receivedData = Encoding.UTF8.GetString(buffer, 0, bytesRead); // 바이트 → 문자열 변환
+Console.WriteLine("Received: " + receivedData);
+```
+
 
 
 ---
