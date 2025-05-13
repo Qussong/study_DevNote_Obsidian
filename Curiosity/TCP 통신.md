@@ -74,4 +74,8 @@ BitConverter.ToSingle(byte[] buffer, in startIndex)
 숫자 데이터(int, float, double)를 바이트 배열로 변환하거나, 반대로 바이트 배열을 숫자로 변환하는 기능을 제공
 네트워크 통신, 파일 저장, 바이너리 데이터 처리 등에 활용됨
 ![600](./img/Pasted%20image%2020250513094822.png)
+기본적으로 **리틀 엔디언(Little Endian)** 방식으로 변환한다.
+엔디언 차이를 고려하지 않으면, 네트워크 통신이나 파일 저장 시 데이터가 잘못 해석될 가능성이 있다.
 
+---
+# Encoding.UTF8.GetBytes()
