@@ -79,5 +79,15 @@ BitConverter.ToSingle(byte[] buffer, in startIndex)
 
 ---
 # Encoding.UTF8.GetBytes()
-문자열을 바이트 배열로 변환하는 방법
-`BitConverter` 로는 직접 문자열을 반환할 수 없기 때문에 사용된 대체제
+문자열을 UTF-8 형식의 바이트 배열로 변환하는 메서드
+문자열은 가변 길이를 가지며, 단순한 숫자 변환이 아닌 문자 인코딩이 필요함
+`BitConverter` 로는 직접 문자열을 반환할 수 없기 때문에 사용된 대체 방법
+
+## 역할
+텍스트를 네트워크로 전송하거나 파일에 저장할 때 올바른 문자 인코딩을 유지하면서 데이터를 변환할 수 있다.
+```csharp
+string text = "Hello, 세계!";
+byte[] bytes = Encoding.UTF8.GetBytes(text);
+Console.WriteLine(BitConverter.ToString(bytes));
+```
+
