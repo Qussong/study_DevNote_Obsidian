@@ -81,4 +81,3 @@ BitConverter.ToSingle(byte[] buffer, in startIndex)
 # Encoding.UTF8.GetBytes()
 문자열을 바이트 배열로 변환하는 방법
 `BitConverter` 로는 직접 문자열을 반환할 수 없기 때문에 사용된 대체제
-
