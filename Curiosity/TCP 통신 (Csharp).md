@@ -17,6 +17,8 @@ NetworkStream 객체를 반환하며 이를 통해 데이터를 Read(), Write() 
 ---
 # NetworkStream.Read()
 바이트 배열을 직접 채워서 데이터를 읽을 수 있는 방법
+Read() 함수는 읽은 바이트 수 즉, 버퍼에 채워진 데이터 크기를 반환한다.
+UTF-8 인코딩을 적용하여 문자열로 변환할 수 있다.
 ```csharp
 TcpClient client = new TcpClient("127.0.0.1", 8080);
 NetworkStream stream = client.GetStream();
@@ -28,7 +30,28 @@ string receivedData = Encoding.UTF8.GetString(buffer, 0, bytesRead); // 바이�
 Console.WriteLine("Received: " + receivedData);
 ```
 
+## StreamReader
+더 편리하게 문자열을 읽을 수 있는 방법
+한 줄씩 데이터를 읽을 수 있어서 문자열을 다룰 때 유용
+`Encoding.UTF8`을 적용하여 정확한 문자 인코딩 유지
+```csharp
+TcpClient client = new TcpClient("127.0.0.1", 8080);
+NetworkStream stream = client.GetStream();
+StreamReader reader = new StreamReader(stream, Encoding.UTF8);
 
+string receivedMessage = reader.ReadLine(); // 한 줄씩 읽기
+Console.WriteLine("Received: " + receivedMessage);
+```
+
+## BinaryReader
+이진 데이터를 처리할 때 활용할 수 있다.
+파일, 숫자 데이터를 다룰 때 적합
+`ReadInt32()`, `ReadDouble()` 등을 활용하여 다양한 데이터 형식 처리 가능
+```csharp
+BinaryReader reader = new BinaryReader(client.GetStream());
+int receivedInt = reader.ReadInt32(); // 4바이트 정수 읽기
+Console.WriteLine("Received: " + receivedInt);
+```
 
 ---
 # 프로토콜 (Protocol)
