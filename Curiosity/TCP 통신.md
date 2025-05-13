@@ -73,3 +73,5 @@ BitConverter.ToSingle(byte[] buffer, in startIndex)
 ## BitConverter
 숫자 데이터(int, float, double)를 바이트 배열로 변환하거나, 반대로 바이트 배열을 숫자로 변환하는 기능을 제공
 네트워크 통신, 파일 저장, 바이너리 데이터 처리 등에 활용됨
+![600](./img/Pasted%20image%2020250513094822.png)
+
