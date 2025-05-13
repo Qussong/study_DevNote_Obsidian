@@ -12,3 +12,6 @@ TcpListener servver = new TcpListener(IPAddress.Any, port);
 4. `BeginAcceptTcpClient(callback, state)` : 비동기 방식으로 클라이언트 연결 수락
 5. `Pending()` : 대기 중인 클라의 요청이 있는지 확인
 
+---
+# EndAcceptTcpClient(IAsyncResult)
+
