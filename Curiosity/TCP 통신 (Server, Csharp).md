@@ -14,8 +14,9 @@ TcpListener servver = new TcpListener(IPAddress.Any, port);
 
 ---
 # EndAcceptTcpClient(IAsyncResult)
-`BeginAcceptTcpClient()` 를 호출할 때 반환된 **비동기 작업의 결과(IAsyncResult)**를 받아서 TCP 연결을 완료하는 역할을 한다.
+`BeginAcceptTcpClient()` 를 호출할 때 반환된 **비동기 작업의 결과** (IAsyncResult)를 받아서 TCP 연결을 완료하는 역할을 한다.
 클라가 접속할 때까지 기다렸다가, 연결이 완료된 클라의 **TcpClient 객체를 반환**한다.
+
 ```csharp
 private void StartServer()
 {
