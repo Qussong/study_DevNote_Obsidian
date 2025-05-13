@@ -14,4 +14,30 @@ TcpListener servver = new TcpListener(IPAddress.Any, port);
 
 ---
 # EndAcceptTcpClient(IAsyncResult)
-BeginAcceptTcpClient()
+`BeginAcceptTcpClient()` 를 호출할 때 반환된 **비동기 작업의 결과(IAsyncResult)**를 받아서 TCP 연결을 완료하는 역할을 한다.
+클라가 접속할 때까지 기다렸다가, 연결이 완료된 클라의 **TcpClient 객체를 반환**한다.
+```csharp
+private void StartServer()
+{
+	server = new TcpListener(IPAddress.Parse(ipAddress), port);
+	server.Start();
+	// 비동기적으로 클라의 연결 수락
+	server.BeginAcceptTcpClient(OnClientConnected, null);
+}
+
+private void OnClientConnected(IAsyncResult result)
+{
+	TcpClient client = server.EndAcceptTcpClient(result);
+	
+    NetworkStream stream = client.GetStream();
+    byte[] buffer = Encoding.UTF8.GetBytes("Hello, Client!");
+    stream.Write(buffer, 0, buffer.Length); // 클라이언트에게 데이터 전송
+    
+    stream.Close();
+    client.Close();
+    server.BeginAcceptTcpClient(OnClientConnected, null); // 새로운 클라이언트 연결 대기
+}
+```
+
+---
+
