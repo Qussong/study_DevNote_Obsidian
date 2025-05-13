@@ -91,3 +91,22 @@ byte[] bytes = Encoding.UTF8.GetBytes(text);
 Console.WriteLine(BitConverter.ToString(bytes));
 ```
 
+## 문자열 변환
+바이트 배열에서 문자열로 변환하는 방법은 두가지며, 각각의 목적이 다르다.
+1. Encoding.UTF8.GetString(byte[])
+	바이트 배열을 실제 문자열로 복원할 때 사용한다.
+	네트워크 송수신, 파일처리 등에서 사용
+	```csharp
+	byte[] bytes = Encoding.UTF8.GetBytes("Hello, 세계!");  // 문자열 → 바이트 배열
+	string result = Encoding.UTF8.GetString(bytes);  // 바이트 배열 → 문자열
+	Console.WriteLine(result);  // 출력: "Hello, 세계!"
+	```
+
+2. BitConverter.ToString(byte[])
+	바이트 배열을 사람이 읽기 쉬운 16진수 (Hex) 문자열로 변환하는 역할을 한다.
+	```csharp
+	byte[] bytes = Encoding.UTF8.GetBytes("Hello");
+	string hexString = BitConverter.ToString(bytes);
+	Console.WriteLine(hexString);  // 출력: "48-65-6C-6C-6F"
+	```
+
