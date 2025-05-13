@@ -4,7 +4,7 @@ C#에서 **TCP (Transmission Control Protocol)** 연결을 관리하는 클래�
 신뢰성 있는 데이터 전송을 보장하는 **프로토콜**로, 네트워크 통신에서 많이 사용된다.
 
 ---
-# GetStream()
+# TcpClient.GetStream()
 TcpClient 에서 제공하는 메서드
 서버와의 데이터 송수신을 위해 **네트워크 스트림**을 가져오는 역할을 한다.
 ```csharp
@@ -13,6 +13,10 @@ NetworkStream stream = client.GetStream();  // 네트워크 스트림 가져오�
 ```
 NetworkStream 객체를 반환하며 이를 통해 데이터를 Read(), Write() 로 송수신할 수 있다.
 스트림을 통해 서버와 클라간의 통신이 이루어진다.
+
+---
+# Stream.Read()
+
 
 ---
 # 프로토콜 (Protocol)
