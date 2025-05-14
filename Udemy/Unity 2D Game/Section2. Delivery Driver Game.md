@@ -46,7 +46,8 @@ Old System 방식과 New System 방식이 존재한다.
 eidt -> Project Settings -> Input Manager -> Axes 
 (※ Axes 는 Axis 의 복수형)
 ```
-`Horizontal`, `Vertical` 값은 -1 ~ +1  범위의 값을 가진다.
+`Horizontal`, `Vertical` 값은 -1(left) ~ +1(right)  범위의 값을 가진다.
+![](./img/capsuleControl.gif)
 ```csharp
 float steerAmount = Input.GetAxis("Horizontal");
 gameObject.transform.Rotate(0f, 0f, steerSpeed * Time.deltaTime * steerAmount);
