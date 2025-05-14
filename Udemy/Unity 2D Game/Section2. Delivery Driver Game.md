@@ -11,3 +11,11 @@ void Update()
 ```
 
 # transform.Translate()
+![](./img/capsuleMove.gif)
+```csharp
+void Update()
+{
+    gameObject.transform.Translate(new Vector3(0, 1 * Time.deltaTime, 0));
+}
+```
+
