@@ -42,3 +42,9 @@ Inspector 창에서 변수에 접근할 수 있게된다.
 # Input System
 플레이어의 물리적인 동작을 변환하는 방법
 Old System 방식과 New System 방식이 존재한다.
+
+```
+eidt -> Project Settings -> Input Manager -> Axes 
+(※ Axes 는 Axis 의 복수형)
+```
+
