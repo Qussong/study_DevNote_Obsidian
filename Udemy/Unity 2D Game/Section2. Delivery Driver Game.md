@@ -37,3 +37,8 @@ Inspector 창에서 변수에 접근할 수 있게된다.
 [SerializeField] float steerSpeed = 45f;
 ```
 코드에서 값을 설정하더라도 Inspector 창에서 값을 수정하면 해당 값이 새로운 값으로 적용된다.
+
+---
+# Input System
+플레이어의 물리적인 동작을 변환하는 방법
+Old System 방식과 New System 방식이 존재한다.
