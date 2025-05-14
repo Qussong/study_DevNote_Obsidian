@@ -10,6 +10,7 @@ void Update()
 }
 ```
 
+---
 # transform.Translate()
 ![](./img/capsuleMove.gif)
 ```csharp
@@ -19,7 +20,14 @@ void Update()
 }
 ```
 
+---
+## Rotate + Translate
 ![](./img/capsuleMoveRotate.gif)
 ```csharp
-
+void Update()
+{
+	gameObject.transform.Rotate(0f, 0f, 45f * Time.deltaTime);
+	gameObject.transform.Translate(new Vector3(0, 1 * Time.deltaTime, 0));
+}
 ```
+
