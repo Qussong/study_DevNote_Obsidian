@@ -1,6 +1,7 @@
 # CallBack Method
 Start(), Update()
 
+---
 # transform.Rotate()
 ![](./img/rotateCapsule.gif)
 ```csharp
@@ -19,8 +20,6 @@ void Update()
     gameObject.transform.Translate(new Vector3(0, 1 * Time.deltaTime, 0));
 }
 ```
-
----
 ## Rotate + Translate
 ![](./img/capsuleMoveRotate.gif)
 ```csharp
@@ -31,3 +30,4 @@ void Update()
 }
 ```
 
+---
