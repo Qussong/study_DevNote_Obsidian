@@ -32,5 +32,8 @@ void Update()
 
 ---
 # SerializeField
-
-
+Inspector 창에서 변수에 접근할 수 있게된다.
+```csharp
+[SerializeField] float steerSpeed = 45f;
+```
+코드에서 값을 설정하더라도 Inspector 창에서 값을 수정하면 해당 값이 새로운 값으로 적용된다.
