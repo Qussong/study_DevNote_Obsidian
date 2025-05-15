@@ -90,6 +90,11 @@ rigid body 컴포넌트를 추가한 뒤부턴 충돌시 튕겨나오게된다.
 ![](./img/capsuleCollision.gif)
 충돌되는 객체에도 rigid body 컴포넌트를 추가해주면 상호작용을 할 수 있다.
 ![](./img/capsuleCollision2.gif)
-
+```csharp
+void OnCollisionEnter2D(Collision2D collision)
+{
+    Debug.Log("Ouch");
+}
+```
 
 
