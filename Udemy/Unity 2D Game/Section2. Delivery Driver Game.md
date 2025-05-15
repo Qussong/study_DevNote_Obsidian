@@ -143,3 +143,8 @@ void LateUpdate()
 ```
 
 ---
+# Tags
+특정 개체가 어떤 분류에 속해있는지 알 수 있도록 해준다.</br>
+기본 값은 Untagged 로 아무곳에도 속해있지 않다.</br>
+![](Pasted%20image%2020250515173816.png)</br>
+
