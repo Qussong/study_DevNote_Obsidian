@@ -124,5 +124,6 @@ void OnTriggerEnter2D(Collider2D other)
 
 ---
 # Sprites
-스프라이트는 픽셀로 이루어져 있다.
+스프라이트는 픽셀(pixel)로 이루어져 있다.
+1 유니티 단위 = 100px 
 
