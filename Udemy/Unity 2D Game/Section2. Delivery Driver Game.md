@@ -131,4 +131,13 @@ void OnTriggerEnter2D(Collider2D other)
 
 ---
 # Camera Follow
+```csharp
+[SerializeField] GameObject thigToFollow;
 
+// This thigs position (camera) should be the same as the car's position.
+void Update()
+{
+    transform.position = 
+	    thigToFollow.transform.position + new Vector3(0, 0, -10);
+}
+```
