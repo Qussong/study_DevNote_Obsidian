@@ -88,4 +88,8 @@ Collider 를 추가하면 Game View 에서는 보이지 않는 외곽선이 추�
 객체에 rigid body 컴포넌트를 추가하면 중력이 작용하여 객체가 아래로 떯어진다.
 rigid body 컴포넌트를 추가한 뒤부턴 충돌시 튕겨나오게된다.
 ![](./img/capsuleCollision.gif)
+충돌되는 객체에도 rigid body 컴포넌트를 추가해주면 상호작용을 할 수 있다.
+![](./img/capsuleCollision2.gif)
+
+
 
