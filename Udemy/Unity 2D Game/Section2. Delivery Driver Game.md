@@ -123,4 +123,6 @@ void OnTriggerEnter2D(Collider2D other)
 ```
 
 ---
-#
+# Sprites
+스프라이트는 픽셀로 이루어져 있다.
+
