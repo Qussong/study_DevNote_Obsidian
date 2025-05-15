@@ -83,3 +83,4 @@ B -> 1 x 100 x 0.01 = 1cm
 Collider 를 추가하면 Game View 에서는 보이지 않는 외곽선이 추가된다.
 ![](./img/Pasted%20image%2020250515100117.png)
 
+## RigidBody 2D
