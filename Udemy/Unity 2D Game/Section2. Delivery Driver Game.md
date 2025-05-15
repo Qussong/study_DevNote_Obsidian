@@ -80,18 +80,20 @@ B -> 1 x 100 x 0.01 = 1cm
 ##  Collider 2D
 객체의 경계를 정의하여 다른 객체와의 충돌을 감지 할 수 있도록 하는 컴포넌트
 해당 컴포넌트 자체적으로는 물리적인 반응을 받지 않는다.
-컴포넌트 창에서 2D 접미사가 붙은 컴포넌트들을 선택해준다.
-2D가 붙어있지 않은 컴포넌트들은 3D를 위한 컴포넌트다.
+2D 접미사가 붙어있지 않은 컴포넌트들은 3D를 위한 컴포넌트다.
 ![](./img/Pasted%20image%2020250515095139.png)
 Collider 를 추가하면 Game View 에서는 보이지 않는 외곽선이 추가된다.
 ![](./img/Pasted%20image%2020250515100117.png)
 `isTrigger` 옵션을 활성화하면 충돌을 감지할 수 있지만, 실제 충돌 효과는 없다.
 ## RigidBody 2D
+물리 연산을 적용할 수 있도록 객체에 물리적인 속성을 추가하는 컴포넌트다.
+중력, 관성, 힘 등의 영향을 받아 움직이고 회전할 수 있다.
 ![350](./img/Pasted%20image%2020250515102358.png)
-객체에 rigid body 컴포넌트를 추가하면 중력이 작용하여 객체가 아래로 떯어진다.
 rigid body 컴포넌트를 추가한 뒤부턴 충돌시 튕겨나오게된다.
+↓ Capsule 에 RigidBody 추가
 ![](./img/capsuleCollision.gif)
 충돌되는 객체에도 rigid body 컴포넌트를 추가해주면 상호작용을 할 수 있다.
+↓ Capsule 과 Circle 에 RigidBody 추가
 ![](./img/capsuleCollision2.gif)
 ## OnCollisionEnter2D(Collision2D)
 Unity에서 2D 물리 엔진을 사용할 때 충돌 감지를 위해 사용한다.
