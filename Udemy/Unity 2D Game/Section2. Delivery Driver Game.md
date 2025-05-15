@@ -125,6 +125,7 @@ void OnTriggerEnter2D(Collider2D other)
 ---
 # Sprites
 스프라이트는 픽셀(pixel)로 이루어져 있다.
-1 유니티 단위 = 100px 
+1 유니티 단위 = 100px
+이미지의 크기를 크게 하고 싶으면 단위 당 픽셀을 줄여주면된다.
 ![](./img/Pasted%20image%2020250515132856.png)
-이미지의 크기를 크게 하고 싶으면 단위 당 픽셀을 줄여주면된다. ()
+
