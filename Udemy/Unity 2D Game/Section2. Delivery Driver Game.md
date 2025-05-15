@@ -99,14 +99,19 @@ rigid body 컴포넌트를 추가한 뒤부턴 충돌시 튕겨나오게된다.
 ↓ Capsule 과 Circle 에 RigidBody 추가
 ![](./img/capsuleCollision2.gif)
 ## OnCollisionEnter2D(Collision2D)
-Unity에서 2D 물리 엔진을 사용할 때 충돌 감지를 위해 사용한다.
-RigidBody2D 를 소유한 객체와 Collider2D 객체와 충돌했을 때 호출된다.
+
 ```csharp
 void OnCollisionEnter2D(Collision2D collision)
 {
-    Debug.Log("Ouch");
+    Debug.Log("충돌 발생! 상대 객체: " + collision.gameObject.name);
 }
 ```
-- OnCollisionEnter2D 는 충돌했을 때 한 번만 호출된다.
-- 충돌 감지를 위해 두 객체 모두 Collider2D 컴포넌트를 가져야하며, 적어도 하나는 RigidBody2D를 소유하고 있어야한다.
 
+## OnTriggerEnter2D(Collider2D)
+
+```csharp
+void OnTriggerEnter2D(Collider2D other)
+{
+    Debug.Log("트리거 감지! 상대 객체: " + other.gameObject.name);
+}
+```
