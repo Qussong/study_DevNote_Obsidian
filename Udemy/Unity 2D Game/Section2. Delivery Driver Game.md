@@ -52,3 +52,4 @@ eidt -> Project Settings -> Input Manager -> Axes
 float steerAmount = Input.GetAxis("Horizontal");
 gameObject.transform.Rotate(0f, 0f, steerSpeed * Time.deltaTime * steerAmount);
 ```
+
