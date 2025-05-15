@@ -99,7 +99,10 @@ rigid body 컴포넌트를 추가한 뒤부턴 충돌시 튕겨나오게된다.
 ↓ Capsule 과 Circle 에 RigidBody 추가
 ![](./img/capsuleCollision2.gif)
 ## OnCollisionEnter2D(Collision2D)
-
+물리적인 충돌이 발생했을 때 호출됨
+두 객체가 모두 Collider2D 를 포함하고 둘 중 하나 이상이 RigidBody2D 를 포함해야함
+실제 충돌 효과가 있다. (객체가 반동하거나 멈춤)
+물리적 충돌이 필요한 경우 사용
 ```csharp
 void OnCollisionEnter2D(Collision2D collision)
 {
@@ -108,7 +111,9 @@ void OnCollisionEnter2D(Collision2D collision)
 ```
 
 ## OnTriggerEnter2D(Collider2D)
-
+`isTrigger` 옵션이 활성화된 Collider2D에서 호출됨
+물리적인 충돌 효과 없음 (통과, 겹침 가능)
+충돌 판별 후, 이벤트 처리용으로만 사용하고 싶은경우 사용
 ```csharp
 void OnTriggerEnter2D(Collider2D other)
 {
