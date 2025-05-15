@@ -121,3 +121,6 @@ void OnTriggerEnter2D(Collider2D other)
     Debug.Log("트리거 감지! 상대 객체: " + other.gameObject.name);
 }
 ```
+
+---
+
