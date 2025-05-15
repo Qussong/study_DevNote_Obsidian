@@ -47,6 +47,7 @@ eidt -> Project Settings -> Input Manager -> Axes
 (※ Axes 는 Axis 의 복수형)
 ```
 `Horizontal`, `Vertical` 값은 -1(left) ~ +1(right)  범위의 값을 가진다.
+</br>
 ![](./img/capsuleControl.gif)
 ```csharp
 float steerAmount = Input.GetAxis("Horizontal");
@@ -84,19 +85,24 @@ Collider 만 추가하면 충돌 감지만 가능하고, 물리적인 반응은 
 객체의 경계를 정의하여 다른 객체와의 충돌을 감지 할 수 있도록 하는 컴포넌트다.
 물리적인 반응은 없고, 충돌을 감지하는 용도로만 사용한다.
 2D 접미사가 붙어있지 않은 컴포넌트들은 3D를 위한 컴포넌트다.
+</br>
 ![](./img/Pasted%20image%2020250515095139.png)
 Collider 를 추가하면 Game View 에서는 보이지 않는 외곽선이 추가된다.
+</br>
 ![](./img/Pasted%20image%2020250515100117.png)
 `isTrigger` 옵션을 활성화하면 충돌을 감지할 수 있지만, 실제 충돌 효과는 없다.
 ## RigidBody 2D
 물리 연산을 적용할 수 있도록 객체에 물리적인 속성을 추가하는 컴포넌트다.
 중력, 관성, 힘 등의 영향을 받아 움직이고 회전할 수 있다.
+</br>
 ![350](./img/Pasted%20image%2020250515102358.png)
 rigid body 컴포넌트를 추가한 뒤부턴 충돌시 튕겨나오게된다.
 ↓ Capsule 에 RigidBody 추가
+</br>
 ![](./img/capsuleCollision.gif)
 충돌되는 객체에도 rigid body 컴포넌트를 추가해주면 상호작용을 할 수 있다.
 ↓ Capsule 과 Circle 에 RigidBody 추가
+</br>
 ![](./img/capsuleCollision2.gif)
 ## OnCollisionEnter2D(Collision2D)
 물리적인 충돌이 발생했을 때 호출됨
@@ -127,7 +133,8 @@ void OnTriggerEnter2D(Collider2D other)
 스프라이트는 픽셀(pixel)로 이루어져 있다.
 1 유니티 단위 = 100px
 이미지의 크기를 크게 하고 싶으면 단위 당 픽셀을 줄여주면된다.
-</br>![](./img/Pasted%20image%2020250515132856.png)
+</br>
+![](./img/Pasted%20image%2020250515132856.png)
 
 ---
 # Camera Follow
