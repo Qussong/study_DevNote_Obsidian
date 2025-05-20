@@ -161,4 +161,7 @@ private void OnTriggerEnter2D(Collider2D collision)
 
 ---
 # Destroy()
-
+```csharp
+float destroyDelay;
+Destroy(collision.gameObject, destroyDelay);
+```
