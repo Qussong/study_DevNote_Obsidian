@@ -161,6 +161,7 @@ private void OnTriggerEnter2D(Collider2D collision)
 
 ---
 # Destroy()
+인자를 추가하여 제거될때까지 걸리는 시간을 설정해줄 수 있다.
 ```csharp
 float destroyDelay;
 Destroy(collision.gameObject, destroyDelay);
