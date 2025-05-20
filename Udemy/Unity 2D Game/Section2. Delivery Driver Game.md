@@ -121,6 +121,7 @@ void OnTriggerEnter2D(Collider2D other)
     Debug.Log("트리거 감지! 상대 객체: " + other.gameObject.name);
 }
 ```
+RigidBody 를 가지고 있다 할지라도 isTrigger 옵션이 활성화되어 있다면, Collision 대신 Trigger 함수가 호출된다.</br>
 
 ---
 # Sprites
@@ -147,4 +148,14 @@ void LateUpdate()
 특정 개체가 어떤 분류에 속해있는지 알 수 있도록 해준다.</br>
 기본 값은 Untagged 로 아무곳에도 속해있지 않다.</br>
 ![](Pasted%20image%2020250515173816.png)</br>
+`Add Tag...`를 통해 새로운 태그를 추가할 수 있으며, Collider2D를 통해 충돌할 객체의 tag 값을 얻을 수 있다.</br>
+```csharp
+private void OnTriggerEnter2D(Collider2D collision)
+{
+	if (collision.tag == "Package")
+	{
+		Debug.Log("Package picked up");
+	}
+}
+```
 
