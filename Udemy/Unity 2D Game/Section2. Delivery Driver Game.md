@@ -175,4 +175,4 @@ Destroy(collision.gameObject, destroyDelay);
 spriteRenderer.color = hasPackageColor;
 ```
 
-
+---
