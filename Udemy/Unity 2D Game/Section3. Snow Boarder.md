@@ -17,6 +17,8 @@
 ![300](./img/Pasted%20image%2020250520164318.png)</br>
 Sprite Shape Controller 의 속성중 **Collider/Offset** 을 조정하면 Collider 의 위치를 수정할 수 있다.</br>
 ![300](./img/Pasted%20image%2020250520170220.png)</br>
+눈의 양을 조절할 수 있는데, Edit Sprite 상태에서 전체 정점을 선택, 이후 Element Inspector 창에서 Height 값을 조절하면 눈의 양을 설정하 수 있다. (이때, Collider 의 위치는 자동으로 따라온다)</br>
+![300](./img/Pasted%20image%2020250520171138.png)
 
 ---
 # Edge Collider 2D
@@ -28,3 +30,5 @@ Edit Spline 으로 Closed Shape 의 형태를 변경하여도 그에 맟줘 Coll
 # Dynamic Sprite
 `우클릭 -> 2D Object -> Physics -> Dynamic Sprite`</br>
 해당 과정을 통해 객체를 생성하면 자동으로 Collider 와 RigidBody가 추가된 채로 Sprite가 생성된다.</br>
+
+---
