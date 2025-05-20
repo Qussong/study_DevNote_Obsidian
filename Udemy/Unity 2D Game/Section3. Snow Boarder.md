@@ -12,4 +12,7 @@
 `Profile/Edit Spline`</br>
 ![](./img/Pasted%20image%2020250520160628.png)</br>
 
+# Edge Collider 2D
+Closed Shape 전체에 콜라이더가 생성됨</br>
+![](./img/Pasted%20image%2020250520162419.png)</br>
 
