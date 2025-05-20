@@ -13,8 +13,10 @@
 # Sprite Shape Controller
 `Profile/Edit Spline` 으로 정점 추가 및 위치 수정을 할 수 있다.</br>
 ![](./img/Pasted%20image%2020250520160628.png)</br>
-생성된 edge collider 의 
-![300](./img/Pasted%20image%2020250520164318.png)
+생성된 edge collider 의 위치때문에 공이 공중에 떠 있는것처럼 보인다.</br>
+![300](./img/Pasted%20image%2020250520164318.png)</br>
+Sprite Shape Controller 의 속성중 **Collider/Offset** 을 조정하면 Collider 의 위치를 수정할 수 있다.</br>
+![300](./img/Pasted%20image%2020250520170220.png)</br>
 
 ---
 # Edge Collider 2D
@@ -24,5 +26,5 @@ Edit Spline 으로 Closed Shape 의 형태를 변경하여도 그에 맟줘 Coll
 
 ---
 # Dynamic Sprite
-`우클릭 -> 2D Object -> Physics -> Dynamic Sprite`
-
+`우클릭 -> 2D Object -> Physics -> Dynamic Sprite`</br>
+해당 과정을 통해 객체를 생성하면 자동으로 Collider 와 RigidBody가 추가된 채로 Sprite가 생성된다.</br>
