@@ -32,3 +32,8 @@ Edit Spline 으로 Closed Shape 의 형태를 변경하여도 그에 맟줘 Coll
 해당 과정을 통해 객체를 생성하면 자동으로 Collider 와 RigidBody가 추가된 채로 Sprite가 생성된다.</br>
 
 ---
+# Sprite Editor
+Closed Shape 에 사용한 Shape Profile 의 눈 이미지를 보면 양 옆이 둥글게 되어 있다.</br>
+![](./img/Pasted%20image%2020250520171408.png)</br>
+하지만, 결과를 보면 저런 둥근 부분이 보이지 않는데 이는 Sprite의 Inspector 창에서 Sprite Editor 를 통해 사용하고자 하는 위치를 지정해줬기 때문이다.</br>
+![](./img/Pasted%20image%2020250520171343.png)</br>
