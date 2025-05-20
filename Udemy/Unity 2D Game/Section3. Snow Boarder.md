@@ -48,3 +48,7 @@ Project 창의 Packages 폴더에는 현재 프로젝트에 설치되어 있는 
 필요한 패키지들은 `Window -> Package Manager` 를 통해 설치할 수 있다.</br>
 `Unity Registry` 창에서 cinemachine 을 검색하여 설치한다.</br> 
 ![](./img/Pasted%20image%2020250520173008.png)</br>
+`우클릭 -> Cinemachine -> Virtual Camera`과정을 통해 Virtaul Camera 객체를 생성한다.</br>
+그러면 아래와 같이 Main Camera 객체에 자동으로 CinemachineBrain 컴포넌트가 추가된다. Hierachy 창에서도 Main Camera 객체옆에 CinemachineBrain 마크가 생긴것을 확인할 수 있다.</br>
+![](./img/Pasted%20image%2020250520173750.png)</br>
+![](Pasted%20image%2020250520173826.png)</br>
