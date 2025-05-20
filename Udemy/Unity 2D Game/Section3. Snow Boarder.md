@@ -41,3 +41,6 @@ Closed Shape 에 사용한 Shape Profile 의 눈 이미지를 보면 양 옆이 
 ![](./img/Pasted%20image%2020250520171750.png)</br>
 
 ---
+# Cinemachine
+여러 대의 카메라를 동작할 수 있게 해주는 패키지</br>
+
