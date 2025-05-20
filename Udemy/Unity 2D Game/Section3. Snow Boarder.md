@@ -8,4 +8,8 @@
 # Sprite Shape Profile
 `우클릭 -> Create -> 2D -> Sprite Shape Profile`</br>
 
+# Sprite Shape Controller
+`Profile/Edit Spline`</br>
+![](./img/Pasted%20image%2020250520160628.png)</br>
+
 
