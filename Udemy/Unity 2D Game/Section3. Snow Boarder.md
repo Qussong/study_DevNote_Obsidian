@@ -39,3 +39,5 @@ Closed Shape 에 사용한 Shape Profile 의 눈 이미지를 보면 양 옆이 
 ![](./img/Pasted%20image%2020250520171343.png)</br>
 만약, 위와 같이 Sprite 를 수정하지 않았다면 아래와 같은 결과가 나온다.</br>
 ![](./img/Pasted%20image%2020250520171750.png)</br>
+
+---
