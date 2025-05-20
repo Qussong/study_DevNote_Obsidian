@@ -166,3 +166,6 @@ private void OnTriggerEnter2D(Collider2D collision)
 float destroyDelay;
 Destroy(collision.gameObject, destroyDelay);
 ```
+
+---
+# SpriteRenderer
