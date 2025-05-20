@@ -37,3 +37,5 @@ Closed Shape 에 사용한 Shape Profile 의 눈 이미지를 보면 양 옆이 
 ![](./img/Pasted%20image%2020250520171408.png)</br>
 하지만, 결과를 보면 저런 둥근 부분이 보이지 않는데 이는 Sprite의 Inspector 창에서 Sprite Editor 를 통해 사용하고자 하는 위치를 지정해줬기 때문이다.</br>
 ![](./img/Pasted%20image%2020250520171343.png)</br>
+만약, 위와 같이 Sprite 를 수정하지 않았다면 아래와 같은 결과가 나온다.</br>
+![](./img/Pasted%20image%2020250520171750.png)</br>
