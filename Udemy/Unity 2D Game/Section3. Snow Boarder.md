@@ -52,5 +52,8 @@ Project 창의 Packages 폴더에는 현재 프로젝트에 설치되어 있는 
 그러면 아래와 같이 Main Camera 객체에 자동으로 CinemachineBrain 컴포넌트가 추가된다. Hierachy 창에서도 Main Camera 객체옆에 CinemachineBrain 마크가 생긴것을 확인할 수 있다.</br>
 ![](./img/Pasted%20image%2020250520173750.png)</br>
 ![](Pasted%20image%2020250520173826.png)</br>
+생성한 Virtual Camera 객체의 CinemachineVirtualCamera 컴포넌트를 확인해보면 다양한 옵션들이 존재한다.</br>
+그 중 Body 의 값을 `Transposer(기본값) -> Framing Transposer`로 변경해준다.</br>
+![](./img/Pasted%20image%2020250520174013.png)</br>
+이는, 
 
-![](./img/Pasted%20image%2020250520174013.png)
