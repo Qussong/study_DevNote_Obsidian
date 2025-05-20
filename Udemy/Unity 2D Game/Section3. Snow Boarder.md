@@ -43,4 +43,8 @@ Closed Shape 에 사용한 Shape Profile 의 눈 이미지를 보면 양 옆이 
 ---
 # Cinemachine
 여러 대의 카메라를 동작할 수 있게 해주는 패키지</br>
-
+Project 창의 Packages 폴더에는 현재 프로젝트에 설치되어 있는 패키지 목록을 확인 할 수 있다.</br>
+하지만, Cinemachine 에 관련된 패키지는 확인할 수 없는데 모든 패키지를 가지고 있게되면 프로젝트의 크기가 너무 커지기 대문이다.</br>
+필요한 패키지들은 `Window -> Package Manager` 를 통해 설치할 수 있다.</br>
+`Unity Registry` 창에서 cinemachine 을 검색하여 설치한다.</br> 
+![](./img/Pasted%20image%2020250520173008.png)</br>
