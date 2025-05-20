@@ -169,3 +169,10 @@ Destroy(collision.gameObject, destroyDelay);
 
 ---
 # SpriteRenderer
+이미지를 게임 씬에 렌더링하며, color 속성을 사용하여 스프라이트 색상을 변경할 수 있다.
+```csharp
+[SerializeField] Color32 hasPackageColor = new Color(1, 1, 1, 1);
+spriteRenderer.color = hasPackageColor;
+```
+
+
