@@ -13,12 +13,14 @@
 # Sprite Shape Controller
 `Profile/Edit Spline` 으로 정점 추가 및 위치 수정을 할 수 있다.</br>
 ![](./img/Pasted%20image%2020250520160628.png)</br>
+생성된 edge collider 의 
+![300](./img/Pasted%20image%2020250520164318.png)
 
 ---
 # Edge Collider 2D
 Closed Shape 전체에 콜라이더가 생성됨</br>
 ![](./img/Pasted%20image%2020250520162419.png)</br>
-Edit Spline 으로 Closed Shape 의 형태를 변경하여도 그에 맟줘 Collider가 수전된다.</br>
+Edit Spline 으로 Closed Shape 의 형태를 변경하여도 그에 맟줘 Collider가 수정된다.</br>
 
 ---
 # Dynamic Sprite
