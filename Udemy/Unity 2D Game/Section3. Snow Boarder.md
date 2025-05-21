@@ -89,3 +89,8 @@ Player 캐릭터의 RigidBody2D 컴포넌트에서 충돌을 감지하는 필드
 ![](./img/Pasted%20image%2020250521131135.png)</br>
 - Speed : 컨베이어 벨트가 얼마나 빨리 움직이는가?
 - Force Scale : 중력에 저항해서 게임 오브젝트에 얼마나 힘을 가하는지의 정도
+
+---
+# Torque
+RigidBody 는 오브젝트가 유니티의 물리 법칙에 따라 반응하고 이동하도록 해주는 기능이다.</br>
+Torque 를 적용하기위해선 RigidBody 컴포넌트로 접근해야 한다.</br>
