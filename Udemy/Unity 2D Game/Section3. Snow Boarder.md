@@ -114,5 +114,5 @@ void Update()
 
 ---
 # Namespace & SceneManager
-
+네임스페이스는 여러개의 클래스를 가지고 있고, 클래스는 여러 개의 메소드를 가지고 있다.
 
