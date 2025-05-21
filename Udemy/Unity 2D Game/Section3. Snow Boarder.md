@@ -97,3 +97,15 @@ Torque 를 적용하기위해선 RigidBody 컴포넌트로 접근해야 한다.<
 ```csharp
 Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
 ```
+
+```csharp
+[SerializeField] float torqueAmount = 1.0f;
+
+void Update()
+{
+	if(Input.GetKey(KeyCode.LeftArrow))
+	{
+		rb2d.AddTorque(torqueAmount);
+	}
+}
+```
