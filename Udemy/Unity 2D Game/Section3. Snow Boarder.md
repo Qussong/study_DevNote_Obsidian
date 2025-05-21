@@ -8,6 +8,7 @@
 ---
 # Sprite Shape Profile
 `우클릭 -> Create -> 2D -> Sprite Shape Profile`</br>
+![400](./img/Pasted%20image%2020250521105523.png)</br>
 
 ---
 # Sprite Shape Controller
