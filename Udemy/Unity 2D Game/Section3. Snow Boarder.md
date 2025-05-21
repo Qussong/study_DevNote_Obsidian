@@ -130,5 +130,12 @@ if(collision.tag == "Player")
 ```
 
 ---
+# Invoke()
+```csharp
+float delay = 1f;  // 딜레이 시간
+Invoke("NameOfMethod", delay);
+// NameOfMethod : delay 시간 이후 호출할 함수의 이름
+```
+
 
 
