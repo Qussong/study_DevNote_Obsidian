@@ -85,3 +85,6 @@ Player Van (Empty Object)
 # Surface Effector 2D
 이를 사용하기위해선 Edge Collider 2D의 **Used By Effector** 설정을 활성화시켜줘야한다.</br>
 ![](./img/Pasted%20image%2020250521131135.png)</br>
+- Speed : 컨베이어 벨트가 얼마나 빨리 움직이는가?
+- Force Scale : 중력에 저항해서 게임 오브젝트에 얼마나 힘을 가하는지의 정도
+- 
