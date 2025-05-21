@@ -83,5 +83,5 @@ Player Van (Empty Object)
 
 ---
 # Surface Effector 2D
-
+이를 사용하기위해선 Edge Collider 2D의 **Used By Effector** 설정을 활성화시켜줘야한다.
 
