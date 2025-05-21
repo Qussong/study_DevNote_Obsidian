@@ -145,5 +145,8 @@ Invoke("NameOfMethod", delay);
 Particle System 의 구성은 아래와 같다.</br>
 Emitter(분출기)가 위치적인 정보를 가지는 객체이며 이 분출기에서 분출되는 행위를 Particle(입자)에게 부여한다.</br>
 ![300](./img/Pasted%20image%2020250521172438.png)</br>
+Particle System 에는 다양한 옵션이 존재한다.</br>
+![](./img/Pasted%20image%2020250521172834.png)</br>
+- Emission : 분출관련
 
 
