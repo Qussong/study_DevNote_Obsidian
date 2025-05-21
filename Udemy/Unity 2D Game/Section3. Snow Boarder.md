@@ -80,6 +80,8 @@ Player Van (Empty Object)
 - Circle Collider 2D
 ```
 ![500](./img/Pasted%20image%2020250521115911.png)</br>
+Player 캐릭터의 RigidBody2D 컴포넌트에서 충돌을 감지하는 필드인 Collision Detection 의 값을 `Discrete(기본값) -> Continuous` 로 변경해줘야 지속적으로 충돌 영역을 감지한다.</br>
+
 
 ---
 # Surface Effector 2D
@@ -87,4 +89,3 @@ Player Van (Empty Object)
 ![](./img/Pasted%20image%2020250521131135.png)</br>
 - Speed : 컨베이어 벨트가 얼마나 빨리 움직이는가?
 - Force Scale : 중력에 저항해서 게임 오브젝트에 얼마나 힘을 가하는지의 정도
-- 
