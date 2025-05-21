@@ -65,3 +65,7 @@ CinemachineVirtualCamera 컴포넌트를 보면 Follow 라는 필드가 있는�
 ↓ 카메라의 초점이 Circle 의 앞에 위치해있다.</br> 
 ![](./img/Pasted%20image%2020250521112752.png)</br>
 
+---
+
+
+
