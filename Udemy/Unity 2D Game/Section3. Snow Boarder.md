@@ -56,9 +56,12 @@ Project 창의 Packages 폴더에는 현재 프로젝트에 설치되어 있는 
 ![](Pasted%20image%2020250520173826.png)</br>
 생성한 Virtual Camera 객체의 CinemachineVirtualCamera 컴포넌트를 확인해보면 다양한 옵션들이 존재한다.</br>
 그 중 Body 의 값을 `Transposer(기본값) -> Framing Transposer`로 변경해준다.</br>
-![](./img/Pasted%20image%2020250520174013.png)</br>
 이는, 게임 내 특정 대상을 프레이밍해서 가상 카메라의 바디를 이동하겠다는 설정이다.</br>
 CinemachineVirtualCamera 컴포넌트를 보면 Follow 라는 필드가 있는데, 해당 필드가 가상 카메라의 바디가 추적하는 객체를 설정하는 필드다.</br>
 유니티에서 팔로우 카메라를 지정할 수 있는 가장 간단한 방법이다.</br>
-
+![](./img/Pasted%20image%2020250520174013.png)</br>
+게임의 특성상 카메라의 초점이 플레이어의 앞에 위치해야 할 경우가 존재한다.</br>
+이럴 경우 CinemachineVirtualCamera 컴포넌트의 Body/Screen X 의 값을 조장히면 된다.</br>
+↓ 카메라의 초점이 Circle 의 앞에 위치해있다.</br> 
+![](./img/Pasted%20image%2020250521112752.png)</br>
 
