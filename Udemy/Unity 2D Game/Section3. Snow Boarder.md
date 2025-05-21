@@ -120,3 +120,13 @@ SceneManager 를 사용하기위해선 UnityEngine.SceneManagement 를 참조해
 ```csharp
 using UnityEngine.SceneManagement;
 ```
+SceneManager.LoadScene() 을 통해서 원하는 Scene 을 불러올 수 있다.
+```csharp
+if(collision.tag == "Player")
+{
+    Debug.Log("You finished!");
+    SceneManager.LoadScene(0);
+}
+```
+
+
