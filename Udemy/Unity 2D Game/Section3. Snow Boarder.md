@@ -131,11 +131,15 @@ if(collision.tag == "Player")
 
 ---
 # Invoke()
+일정 시간이후 지정한 함수를 호출할 수 있는 기능을 제공하는 함수
 ```csharp
 float delay = 1f;  // 딜레이 시간
 Invoke("NameOfMethod", delay);
 // NameOfMethod : delay 시간 이후 호출할 함수의 이름
 ```
 
+---
+# Particle Effect
+`우클릭 -> Effect -> Particle System` 을 통해 생성한다.
 
 
