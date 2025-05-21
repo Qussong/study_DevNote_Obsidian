@@ -24,6 +24,7 @@ Sprite Shape Controller 의 속성중 **Collider/Offset** 을 조정하면 Colli
 # Edge Collider 2D
 Closed Shape 전체에 콜라이더가 생성됨</br>
 ![](./img/Pasted%20image%2020250520162419.png)</br>
+생성된 Edge Collider 의 위치 수정은 Sprite Shape Controller 의 offset 값을 통해 수정한다.</br>
 Edit Spline 으로 Closed Shape 의 형태를 변경하여도 그에 맟줘 Collider가 수정된다.</br>
 
 ---
