@@ -67,5 +67,7 @@ CinemachineVirtualCamera 컴포넌트를 보면 Follow 라는 필드가 있는�
 
 ---
 
+Player 객체를 생성하는데 해당 객체의 월드상의 형태는 Sprite Renderer의 Sprite에 설정된 이미지에 의해 결정된다.</br>
+
 
 
