@@ -117,3 +117,6 @@ void Update()
 네임스페이스는 여러개의 클래스를 가지고 있고, 클래스는 여러 개의 메소드를 가지고 있다.</br>
 ![](./img/Pasted%20image%2020250521163434.png)</br>
 SceneManager 를 사용하기위해선 UnityEngine.SceneManagement 를 참조해야한다.
+```csharp
+using UnityEngine.SceneManagement;
+```
