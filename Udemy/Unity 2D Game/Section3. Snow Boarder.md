@@ -151,4 +151,5 @@ Particle System 에는 다양한 옵션이 존재한다.</br>
 - Shape : 분출 모양을 설정하는 옵션
 
 각각의 Particle은 게임 오브젝트가 아니다. 때문에 각 입자들의 Transform 에는 접근할 수 없다.</br>
+메인 모듈에서 Duration 은 Particle System 이 지속되는 시간으로 Emission 모듈에서 Rate over Time 을 100 으로 하고 Duration을 0.2로 해두면 Loop 가 아닌 상황에서 한번에 생성되는 입자의 개수는 100 x 0.2 = 20 개가 된다.</br>
 
