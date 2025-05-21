@@ -116,11 +116,11 @@ void Update()
 # Namespace & SceneManager
 네임스페이스는 여러개의 클래스를 가지고 있고, 클래스는 여러 개의 메소드를 가지고 있다.</br>
 ![](./img/Pasted%20image%2020250521163434.png)</br>
-SceneManager 를 사용하기위해선 UnityEngine.SceneManagement 를 참조해야한다.
+SceneManager 를 사용하기위해선 UnityEngine.SceneManagement 를 참조해야한다.</br>
 ```csharp
 using UnityEngine.SceneManagement;
 ```
-SceneManager.LoadScene() 을 통해서 원하는 Scene 을 불러올 수 있다.
+SceneManager.LoadScene() 을 통해서 원하는 Scene 을 불러올 수 있다.</br>
 ```csharp
 if(collision.tag == "Player")
 {
@@ -131,7 +131,7 @@ if(collision.tag == "Player")
 
 ---
 # Invoke()
-일정 시간이후 지정한 함수를 호출할 수 있는 기능을 제공하는 함수
+일정 시간이후 지정한 함수를 호출할 수 있는 기능을 제공하는 함수</br>
 ```csharp
 float delay = 1f;  // 딜레이 시간
 Invoke("NameOfMethod", delay);
@@ -140,5 +140,10 @@ Invoke("NameOfMethod", delay);
 
 ---
 # Particle Effect
-`우클릭 -> Effect -> Particle System` 을 통해 생성한다.
-![](./img/particleSystem.gif)
+`우클릭 -> Effect -> Particle System` 을 통해 생성한다.</br>
+![](./img/particleSystem.gif)</br>
+Particle System 의 구성은 아래와 같다.</br>
+Emitter(분출기)가 위치적인 정보를 가지는 객체이며 이 분출기에서 분출되는 행위를 Particle(입자)에게 부여한다.</br>
+![300](./img/Pasted%20image%2020250521172438.png)</br>
+
+
