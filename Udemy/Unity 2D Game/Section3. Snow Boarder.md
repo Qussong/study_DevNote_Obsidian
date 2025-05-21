@@ -141,5 +141,4 @@ Invoke("NameOfMethod", delay);
 ---
 # Particle Effect
 `우클릭 -> Effect -> Particle System` 을 통해 생성한다.
-
-
+![](./img/particleSystem.gif)
