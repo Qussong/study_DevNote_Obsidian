@@ -147,6 +147,7 @@ Emitter(분출기)가 위치적인 정보를 가지는 객체이며 이 분출�
 ![300](./img/Pasted%20image%2020250521172438.png)</br>
 Particle System 에는 다양한 옵션이 존재한다.</br>
 ![](./img/Pasted%20image%2020250521172834.png)</br>
-- Emission : 분출되는 입자와 관련된 설정으로 Rate over Time 을 조정하면
+- Emission : 분출되는 입자와 관련된 설정으로 **`Rate over Time`** 을 조정하면 시간당 생성되는 파티클의 수를 조정할 수 있다.
+- 
 
 
