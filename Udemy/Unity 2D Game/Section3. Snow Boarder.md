@@ -191,5 +191,6 @@ if(collision.tag == "Ground")
 ---
 # FindObjectOfType()
 해당 장면 안에 특정 컴포넌트가 하나만 존재하는경우 사용하기 용이하다.
+type 과 component 의 차이 : 컴포넌트도 보통은 타입의 일종이다.
 
 
