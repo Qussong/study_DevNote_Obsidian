@@ -213,7 +213,9 @@ private void RespondToBoost()
 
 ---
 # Sound Effect
-`Audio Listener`가 필요하다. 기본적으로 메인 카메라에 포함되어 있다.</br>
+`Audio Listener`
+`Audio Source` 
+`Audio Clip`
 
 
 
