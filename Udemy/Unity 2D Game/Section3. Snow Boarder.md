@@ -210,6 +210,7 @@ private void RespondToBoost()
 	}
 }
 ```
+현재 씬에 찾고자하는 특정 컴포넌트가 하나만 존재하면 `FindObjectOfType<T>()` 를 사용하고, 만약 스크립트를 붙일 객체가 찾고자하는 컴포넌트를 가지고 있다면 `GetComponent<T>()`를 사용한다.</br>
 
 ---
 # Sound Effect
