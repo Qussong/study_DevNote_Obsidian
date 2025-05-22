@@ -195,3 +195,25 @@ type 과 component 의 차이 : 컴포넌트도 보통은 타입의 일종이다
 `영역잡기 -> ctrl + 온점(.)` : 특정 영역의 로직을 메서드로 추출한다.</br>
 함수 이름을 작성하고 `ctrl + Enter` 를 하면 함수를 생성해준다.
 ![400](./img/Pasted%20image%2020250522142902.png)
+```csharp
+SurfaceEffector2D surfaceEffector2D;
+surfaceEffector2D = FindFirstObjectByType<SurfaceEffector2D>();
+private void RespondToBoost()
+{
+	if(Input.GetKey(KeyCode.UpArrow))
+	{
+		surfaceEffector2D.speed = boostSpeed;
+	}
+	else 
+	{
+		surfaceEffector2D.speed = baseSpeed;
+	}
+}
+```
+
+---
+# OnCollisionExit()
+
+
+
+
