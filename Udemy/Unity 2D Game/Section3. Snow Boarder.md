@@ -193,8 +193,8 @@ if(collision.tag == "Ground")
 해당 장면 안에 특정 컴포넌트가 하나만 존재하는경우 사용하기 용이하다.</br>
 type 과 component 의 차이 : 컴포넌트도 보통은 타입의 일종이다.</br>
 `영역잡기 -> ctrl + 온점(.)` : 특정 영역의 로직을 메서드로 추출한다.</br>
-함수 이름을 작성하고 `ctrl + Enter` 를 하면 함수를 생성해준다.
-![400](./img/Pasted%20image%2020250522142902.png)
+함수 이름을 작성하고 `ctrl + Enter` 를 하면 함수를 생성해준다.</br>
+![400](./img/Pasted%20image%2020250522142902.png)</br>
 ```csharp
 SurfaceEffector2D surfaceEffector2D;
 surfaceEffector2D = FindFirstObjectByType<SurfaceEffector2D>();
@@ -212,7 +212,10 @@ private void RespondToBoost()
 ```
 
 ---
-# OnCollisionExit()
+# Sound Effect
+`Audio Listener`가 필요하다. 기본적으로 메인 카메라에 포함되어 있다.</br>
+
+
 
 
 
