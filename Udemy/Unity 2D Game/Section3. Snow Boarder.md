@@ -176,4 +176,19 @@ Strength : 10
 [Renderer Module]
 Material : Sprites-Default
 ```
+코드로 파티클 시스템에 접근하여 플레이 할 수 있다.</br>
+```csharp
+[SerializeField] ParticleSystem crashEffect;
+
+if(collision.tag == "Ground")
+{
+    Debug.Log("Ouch, hit my head.");
+    Invoke("ReloadScene", loadDelay);
+    crashEffect.Play();
+}
+```
+
+---
+# Moment Tune
+
 
