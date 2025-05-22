@@ -154,3 +154,25 @@ Particle System 에는 다양한 옵션이 존재한다.</br>
 메인 모듈에서 Duration 은 Particle System 이 지속되는 시간으로 Emission 모듈에서 Rate over Time 을 100 으로 하고 Duration을 0.2로 해두면 Loop 가 아닌 상황에서 한번에 생성되는 입자의 개수는 100 x 0.2 = 20 개가 된다.</br>
 각종 옵션들을 수정하면 아래와 같은 Effect 를 생성할 수 있다.</br>
 ![](./img/customParticleEffect.gif)</br>
+```
+[Essential Module]
+Duration : 0.2
+Looping : false
+Start Lifetime : 0.2 ~ 0.4
+Start Speed : 5 ~ 30
+Start Color : Random Between Two Colors
+
+[Emission Module]
+Rate over Time : 500
+
+[Shape Module]
+Shape : Sphere
+Radius : 5 // 파티클이 뿜어져나오는 영역
+
+[Noise Module]
+Strength : 10
+
+[Renderer Module]
+Material : Sprites-Default
+```
+
