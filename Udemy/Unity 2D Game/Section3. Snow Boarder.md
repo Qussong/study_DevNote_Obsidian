@@ -225,6 +225,8 @@ private void RespondToBoost()
 
 GetComponent<AudioSource>().PlayOneShot(crashSFX);
 ```
+`PlayOneShot()`의 경우 기존 소리를 중단하지 않고 새 소리를 동시에 재생할 수 있어, 짧은 효과음에 적합하다.</br>
+![550](./img/Pasted%20image%2020250522172133.png)</br>
 
 
 
