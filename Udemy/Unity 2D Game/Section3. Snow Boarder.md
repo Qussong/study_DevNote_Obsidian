@@ -220,7 +220,11 @@ private void RespondToBoost()
 - `Audio Clip` : 오디오 데이터로 mp3, wav, ogg 등의 파일을 사용할 수 있다. Audio Source에 연결되어야 실제로 소리가 재생된다. 여러 개의 Audio Clip을 한 개의 Audio Source에서 번갈아가며 재생할 수 있다.</br>
 ![450](./img/Pasted%20image%2020250522162648.png)</br>
 만약 여러 종류의 음향을 출력하도록 하고 싶다면 Audio Resource에 직접 Audio Clip 을 삽입하는게 아니라 코드로 설정해준다.</br>
+```csharp
+[SerializeField] AudioClip crashSFX; 
 
+GetComponent<AudioSource>().PlayOneShot(crashSFX);
+```
 
 
 
