@@ -161,6 +161,7 @@ Looping : false
 Start Lifetime : 0.2 ~ 0.4
 Start Speed : 5 ~ 30
 Start Color : Random Between Two Colors
+Play On Awake : false  // Play시 자동으로 실해되도록 하는 설정(Off)
 
 [Emission Module]
 Rate over Time : 500
