@@ -218,7 +218,8 @@ private void RespondToBoost()
 - `Audio Listener` : 게임 내 귀와 같은 존재로, 해당 컴포넌트가 있는 위치에서 모든 오디오를 수신한다. 기본적으로 씬에 하나의 Audio Listener만 존재해야한다. 카메라나 플레이어 오브젝트에 부착된다.</br>
 - `Audio Source` : 사운드가 재생되는 컴포넌트로, 소리를 내는 오브젝트에 부착된다. Audio Clip을 할당하여 소리를 재생할 수 있으며, 각종 음향 설정을 할 수 있다.</br>
 - `Audio Clip` : 오디오 데이터로 mp3, wav, ogg 등의 파일을 사용할 수 있다. Audio Source에 연결되어야 실제로 소리가 재생된다. 여러 개의 Audio Clip을 한 개의 Audio Source에서 번갈아가며 재생할 수 있다.</br>
-
+![450](./img/Pasted%20image%2020250522162648.png)</br>
+만약 여러 종류의 음향을 출력하도록 하고 싶다면 Audio Resource에 직접 Audio Clip 을 삽입하는게 아니라 코드로 설정해준다.</br>
 
 
 
