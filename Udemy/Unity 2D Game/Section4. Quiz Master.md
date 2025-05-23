@@ -19,6 +19,7 @@ SourceFont 를 설정하고 Generate Font Atlas 버튼을 클릭하면 Font Asse
 TextMeshPro의 색상 변경 옵션에서 Color Gradient 옵션을 활성화하면 추가 설정이 활성화된다.</br>
 ![350](./img/Pasted%20image%2020250523140709.png)</br>
 
-
-
 ---
+# Button-TextMeshPro
+`우클릭 -> UI -> Button-TextMeshPro` 를 선택하여 버튼을 생성할 수 있다.</br>
+Button 의 Inspector 창에서 Interactable 옵션은 버튼의 활성화 여부를 결정하며 기본값은 true이다. 이를 false 로 만들면 동작은 회색으로 변하며 비활성화된다.</br>
