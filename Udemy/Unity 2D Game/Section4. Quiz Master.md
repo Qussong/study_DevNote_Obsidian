@@ -9,6 +9,12 @@ UI 요소의 Inspector 를 확인해보면, 일반 객체와 달리 **Standard T
 ---
 # TextMeshPro
 `Window ->Package Manager -> TextMeshPro`를 통해 추가해준다.</br>
+Font 변경을 하기위해선 Font Asset 이 필요하다.</br>
+`Window -> TextMeshPro -> Font Asset Creator` </br>
+![500](./img/Pasted%20image%2020250523135316.png)</br>
+설정할게 많아보이지만 SourceFont만 신경써주면 된다.</br>
+SourceFont 를 설정하고 Generate Font Atlas 버튼을 클릭하면 Font Asset 이 생성된다.</br>
+
 
 
 ---
