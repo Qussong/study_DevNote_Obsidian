@@ -17,6 +17,7 @@ SourceFont 를 설정하고 Generate Font Atlas 버튼을 클릭하면 Font Asse
 생성된 Font Asset 으로 변경해주면 Font 가 적용된다.</br>
 ![350](./img/Pasted%20image%2020250523140231.png)</br>
 TextMeshPro의 색상 변경 옵션에서 Color Gradient 옵션을 활성화하면 추가 설정이 활성화된다.</br>
+![350](./img/Pasted%20image%2020250523140709.png)</br>
 
 
 
