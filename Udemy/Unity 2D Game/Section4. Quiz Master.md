@@ -8,6 +8,7 @@ UI 요소의 Inspector 를 확인해보면, 일반 객체와 달리 **Standard T
 
 ---
 # TextMeshPro
+`Window ->Package Manager -> TextMeshPro`를 통해 추가해준다.</br>
 
 
 ---
