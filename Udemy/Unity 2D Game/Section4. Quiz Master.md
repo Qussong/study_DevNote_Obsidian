@@ -25,4 +25,7 @@ TextMeshPro의 색상 변경 옵션에서 Color Gradient 옵션을 활성화하�
 Button 의 Inspector 창에서 Interactable 옵션은 버튼의 활성화 여부를 결정하며 기본값은 true이다. 이를 false 로 만들면 동작은 회색으로 변하며 비활성화된다.</br>
 아래는 버튼의 Inspector 창으로 각 동작에 해당하는 색상을 변경할 수 있는데 순서대로 기본, Hovering, OnClick, Clicked, Disable 에 해당한다.</br>
 ![400](./img/Pasted%20image%2020250523215652.png)</br>
+![](./img/ButtonClick.gif)</br>
+
+
 
