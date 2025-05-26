@@ -32,6 +32,9 @@ Button 의 Image Type 을 Simple -> Sliced 로 변경한다.</br>
 버튼에 사용할 이미지를 선택하고 Inspector 창에서 Open Sprite Editor 버튼을 통해 에디터 창을 연다. 이후, Border 를 설정해준다.</br>
 ![350](./img/Pasted%20image%2020250526093153.png)</br>
 
+---
+# Layout Group
+
 
 
 
