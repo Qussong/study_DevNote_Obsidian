@@ -26,6 +26,12 @@ Button 의 Inspector 창에서 Interactable 옵션은 버튼의 활성화 여부
 아래는 버튼의 Inspector 창으로 각 동작에 해당하는 색상을 변경할 수 있는데 순서대로 기본, Hovering, OnClick, Clicked, Disable 에 해당한다.</br>
 ![400](./img/Pasted%20image%2020250523215652.png)</br>
 ![](./img/ButtonClick.gif)</br>
+Button 의 Image Type 을 Simple -> Sliced 로 변경한다.</br>
+그럼 아래와 같이 `This image doesn't have a border.` 를 경고창이 등장하는데, 이미지에 테두리를 만들어 주도록 한다.</br>
+![](./img/Pasted%20image%2020250526092905.png)</br>
+버튼에 사용할 이미지를 선택하고 Inspector 창에서 Open Sprite Editor 버튼을 통해 에디터 창을 연다. 이후, Border 를 설정해준다.</br>
+![350](./img/Pasted%20image%2020250526093153.png)</br>
+
 
 
 
