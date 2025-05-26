@@ -30,11 +30,10 @@ Button 의 Image Type 을 Simple -> Sliced 로 변경한다.</br>
 그럼 아래와 같이 `This image doesn't have a border.` 를 경고창이 등장하는데, 이미지에 테두리를 만들어 주도록 한다.</br>
 ![](./img/Pasted%20image%2020250526092905.png)</br>
 버튼에 사용할 이미지를 선택하고 Inspector 창에서 Open Sprite Editor 버튼을 통해 에디터 창을 연다. 이후, Border 를 설정해준다.</br>
-![350](./img/Pasted%20image%2020250526093153.png)</br>
+![300](./img/Pasted%20image%2020250526093153.png)</br>
 
 ---
 # Layout Group
-
-
+Create Empty 를 통해 비어있는 오브젝트 객체를 생성하고, **Vertical Layout Group** 을 추가해준다.
 
 
