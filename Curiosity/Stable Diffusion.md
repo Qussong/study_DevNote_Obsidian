@@ -9,6 +9,15 @@
 
 ## 1. BRAVO - 3D Cartoon
 
+🔥 **Key Features:**
+- Generates **3D-style characters**, **cartoon scenes**, and **stylized objects** with smooth shapes and pleasing colors
+- Perfect for **advertising**, **game assets**, **children's illustrations**, and **social media content**
+- Maintains **clean, consistent styling** without artifacts or noise
 
+⚙️ **Technical Specs:**
+- **Optimal resolutions:** 640 / 768 / 960
+- **Steps:** 20
+- **Sampler:** Euler a / Karras
+- **CFG Scale:** 5-7 (for soft yet controlled output)
 
 
