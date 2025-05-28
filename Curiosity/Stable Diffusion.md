@@ -20,4 +20,9 @@
 - **Sampler:** Euler a / Karras
 - **CFG Scale:** 5-7 (for soft yet controlled output)
 
+## 2. Fluxmania
 
+File 15.91 GB : checkpoint fp8 (not bf16) with VAE & [**Clip L full fp32**](https://civitai.com/models/1044804/clip-l-full-fp32-zer0int-and-simv4)
+Settings : dpmpp_2m - sgm_uniform / cfg 3.5 / steps 25 - 30.
+
+I recommend using this version of [**Clip L**](https://civitai.com/models/1044804/clip-l-full-fp32-zer0int-and-simv4) with the Fluxmania model
