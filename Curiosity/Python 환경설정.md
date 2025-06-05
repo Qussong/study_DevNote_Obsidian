@@ -1,7 +1,4 @@
 
-# 프로그램
+# pyenv
 
-1. pyenv
-	
-2. venv
-	
+# venv
