@@ -1,3 +1,4 @@
+<< 강의 설명이 체계적이지 않아 중도 포기 >>
 # UI Canvas
 UI = User Interface</br>
 Text, Button, Slider, Menu, etc 을 포함한다.</br>
@@ -34,6 +35,95 @@ Button 의 Image Type 을 Simple -> Sliced 로 변경한다.</br>
 
 ---
 # Layout Group
-Create Empty 를 통해 비어있는 오브젝트 객체를 생성하고, **Vertical Layout Group** 을 추가해준다.
+Create Empty 를 통해 비어있는 오브젝트 객체를 생성하고, **Vertical Layout Group** 을 추가해준다.</br>
+![400](./img/Pasted%20image%2020250528162207.png)</br>
+해당 컴포넌트가 추가된 Obejct 의 자식 오브젝트로 버튼을 추가하고 설정을 수정하여 정렬한다.</br>
+![500](./img/Pasted%20image%2020250528162433.png)</br>
+
+---
+# ScriptableObject
+
+ScriptableObject 를 활용하기 위해선 아래와 같은 형태로 생성한 클래스가 ScriptableObject 를 상속해야한다.</br>
+```csharp
+[CreateAssetMenu]
+public class QuestionSO : ScriptableObject
+```
+`[CreateAssetMenu]`키워드를 추가해주면 `우클릭 -> Create`에서 해당 클래스를 발견할 수 있다.</br>
+![](./img/Pasted%20image%2020250528162808.png)</br>
+메뉴창에 나타나는 ScriptableObject 의 이름은 아래와 같은 방법으로 수정할 수 있다.</br>
+```csharp
+[CreateAssetMenu(menuName = "Quiz Question", fileName = "New Question")]
+public class QuestionSO : ScriptableObject
+```
+![](./img/Pasted%20image%2020250528163327.png)</br>
+ScriptableObject 클래스에 파라미터를 추가하면 생성된 객체에서 해당 값을 확인할 수 있다.</br>
+string 의 경우 길이가 길어지면 수정이 힘들 수 있기에 `[TextAreat(a,b)]` 키워드를 통해 Inspector 창에서 보이는 UI의 모습을 변형할 수 있다.</br>
+![](./img/Pasted%20image%2020250528164443.png)</br>
+
+---
+# Getter Method
+해당 메서드를 활용하여 클래스 내의 Private 변수를 보호할 수 있다.</br>
+```csharp
+[TextArea(2,6)] // TextArea(a,b) -> a : minLinesCnt, b : maxLineCnt
+[SerializeField] string question = "Enter new question text here.";
+
+public string GetQuestion()
+{
+	return question;
+}
+```
+
+---
+# Array
+index 가 0부터 시작한다.</br>
+```csharp
+// case1)
+int[] oddNumbers = {1,3,5,7,9};
+
+// case2)
+int[] oddNumbers = new int[5];
+```
+![](./img/Pasted%20image%2020250528174636.png)
+
+---
+# TextMeshProUGUI
+이를 사용하기 위해선 TMPro 를 추가해줘야한다.</br>
+```csharp
+using TMPro;
+```
+- TextMeshPro : 게임 세계에 실제로 존재하는 텍스트를 위한 것
+- TextMeshProUGUI : UI 기반 텍스트를 위한 것
+
+---
+# GetComponentInChildren\<T>
+자식 항목 중 첫 번짼 T 컴포넌트를 찾아 반환한다.
+
+---
+# Button-Interactable option
+해당 옵션을 비활성화하면 버튼이 더이상 클릭되지 않는다.</br>
+![](./img/Pasted%20image%2020250529102527.png)</br>
+
+---
+# Image-Image Type option
+
+![](./img/Pasted%20image%2020250529110013.png)</br>
+
+![500](./img/Pasted%20image%2020250529110454.png)
+
+---
+# List\<T>
+```csharp
+List<T> list = new List<T>();
+```
+- List.Count
+- List.Contains(n);
+- List.Add(n);
+- List.Remove(n);
+- List.RemoveAt(idx);
+- List.Clear();
+
+---
+
+
 
 
