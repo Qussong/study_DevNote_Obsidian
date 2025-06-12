@@ -11,5 +11,4 @@ pyenv global [파이썬 버전]
 pyenv local [파이썬 버전]
 ```
 
-
 # venv
